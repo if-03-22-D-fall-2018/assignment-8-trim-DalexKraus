@@ -1,15 +1,15 @@
 CC					= g++
-CCLINK			= g++
+CCLINK				= g++
 LIBS				=
-CCOPTIONS		= -Wall -pedantic -g
-LDOPTIONS		=
+CCOPTIONS			= -Wall -pedantic -g
+LDOPTIONS			=
 HDRS				= trim.h test_trim.h shortcut.h
 
 TEST = test_trim
 PROGRAM = trim_str															# to be added by student
 
 TESTOBJECT = trim_test_driver.o
-MAINOBJECT = trim_str.o													# to be changed by student
+MAINOBJECT = trim_str.o				 									# to be changed by student
 OBJS = shortcut.o trim.o test_trim.o
 
 DOXY            = /Applications/Doxygen/Doxygen.app/Contents/Resources/doxygen

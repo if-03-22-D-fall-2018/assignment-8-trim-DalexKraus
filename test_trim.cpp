@@ -31,8 +31,8 @@ TEST(empty_substring)
 }
 
 /******************************************************************************
- * total_string: describe yourself.
- *
+ * Checks if the result of trim is equal to the input string,
+ * because there are no cahracters to remove.
  *
  ******************************************************************************/
 TEST(total_string)
@@ -45,8 +45,8 @@ TEST(total_string)
 }
 
 /******************************************************************************
- * leading_blanks: describe yourself.
- *
+ * Checks if there are any blanks in front of the content which
+ * should be deleted. All leading blanks have to be removed.
  *
  ******************************************************************************/
 TEST(leading_blanks)
@@ -59,8 +59,8 @@ TEST(leading_blanks)
 }
 
 /******************************************************************************
- * trailing_blanks: describe yourself.
- *
+ * Checks if there are any blanks at the back of the content which should
+ * be deleted. All trailing blanks have to be removed.
  *
  ******************************************************************************/
 TEST(trailing_blanks)
@@ -73,8 +73,8 @@ TEST(trailing_blanks)
 }
 
 /******************************************************************************
- * leading_and_trailing_blanks: describe yourself.
- *
+ * Checks if the result of trim is the original string, but with all
+ * leading and trailing characters removed.
  *
  ******************************************************************************/
 TEST(leading_and_trailing_blanks)
